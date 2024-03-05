@@ -1,0 +1,36 @@
+.card {
+    padding: 2em;
+   background-color: #ffffff;
+   border:solid 1px #000000;
+   border-radius: 5px;
+   
+  }
+  
+  .img{
+    background-color: rgb(230, 230, 230);
+    width: 10em;
+    border:solid 1px #000000;
+    height: 5rem
+  }
+  
+  .Author{
+    font-size: 1em;
+    font-weight: 700;
+    color: #0c3045;
+  }
+  
+  .Title{
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #0c3045;
+  }
+
+  .BorrowButton{
+    background-color: #7fadc8;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: 700;
+  }

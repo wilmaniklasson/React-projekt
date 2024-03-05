@@ -1,24 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import CreateCard from './card'
+import './card.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
+    <header>
+      <h1>Bibblan</h1>
+    </header>
     <main>
-      <h1> Hello world </h1>
-      <p className='exciting'> Min första riktiga React-app. </p>
-      <p className='Ptagg'> Det kommer snabbt bli mer intressant. </p>
-    </main>
+      <p className='Ptagg'>Våraböcker</p>
+    
     <section>
-      <div className='card'>
-        <div className='img'></div>
-        <h2 className='ProductName'>Rasberry</h2>
-      </div>
+      <CreateCard titel={"Sagan om ringen"} Author={"J.R.R. Tolkien"} />
+      <CreateCard titel={"Jane Eyre"} Author={"Charlotte Brontë"} />
+      <CreateCard  titel={"1984"} Author={"George Orwell"} />
+      <CreateCard titel={"To Kill a Mockingbird"} Author={"Harper Lee"} />
+      <CreateCard titel={"Pride and Prejudice"} Author={"Jane Austen" } />
+      
     </section>
+    </main>
 
     </>
   )
