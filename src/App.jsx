@@ -14,11 +14,11 @@ function App() {
       <p className='Ptagg'>Våraböcker</p>
     
     <section>
-      <CreateCard titel={"Sagan om ringen"} Author={"J.R.R. Tolkien"} />
-      <CreateCard titel={"Jane Eyre"} Author={"Charlotte Brontë"} />
-      <CreateCard  titel={"1984"} Author={"George Orwell"} />
-      <CreateCard titel={"To Kill a Mockingbird"} Author={"Harper Lee"} />
-      <CreateCard titel={"Pride and Prejudice"} Author={"Jane Austen" } />
+      <CreateCard titel={"Sagan om ringen"} Author={"J.R.R. Tolkien"} Låna={"Låna"}/>
+      <CreateCard titel={"Jane Eyre"} Author={"Charlotte Brontë"} Låna={"Lånad"}/>
+      <CreateCard  titel={"1984"} Author={"George Orwell"} Låna={"Låna"}/>
+      <CreateCard titel={"To Kill a Mockingbird"} Author={"Harper Lee"} Låna={"Låna"}/>
+      <CreateCard titel={"Pride and Prejudice"} Author={"Jane Austen" } Låna={"Låna"}/>
       
     </section>
     </main>
